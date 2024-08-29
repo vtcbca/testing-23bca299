@@ -1,0 +1,15 @@
+/* (6)WAP to convert dollar into rupees
+ID : 23BCA299*/
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	float d,r;
+	clrscr();
+	cout<<"Dollar : ";
+	cin>>d;
+	r=d*83;
+	cout<<"Rupees : "<<r<<endl;
+	getch();
+}
